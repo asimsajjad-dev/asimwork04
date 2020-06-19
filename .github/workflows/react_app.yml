@@ -33,10 +33,11 @@ jobs:
     - uses: Borales/actions-yarn@2.1.0
       with:
         cmd: install #install yarn
+  
     - name: install build
       run: npm yarn start
     - name: install surge
       run: npm install -g surge
     - name: deploying to surge
-      run: surge ./build http://asimwork04.surge.sh/ --token ""
+      run: surge ./build http://asimwork04.surge.sh/ --token "2db152218aeda672e0f81fae602daf1e"
 
