@@ -1,0 +1,11 @@
+.box{position: relative;
+    margin: auto;
+background-color: gray;    
+height: 500px;
+}
+.daylight{position: relative;
+    margin: auto;
+    background-color: yellow;
+    height: 500px;
+
+}
